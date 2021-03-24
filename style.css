@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 12pt;
+  font-family: "Spartan";
+  color: #2A293E;
+}
+
+fieldset{
+  width: 30%;
+  margin-top: 10px;
+}
+label, input, select {
+  display: block;
+  width: 500px;
+  font-size: 12pt;
+  line-height: 24pt;
+  font-family: "Spartan";
+  margin-left: 20px;
+}
+
+input, select {
+  margin-bottom: 24pt;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  background: #f8f4e5;
+  padding-left: 10  px;
+  margin-left: 70px;
+  outline: none;
+}
+.wilayah {
+  margin-top: 20px;
+}
+input:focus, select:focus {
+  border: 1px solid #6bd4b1;
+}
+
+
+.btn {
+  
+ margin-right: 40px;
+  line-height: 24pt;
+  border: none;
+  background: #f45702;
+  color: white;
+  letter-spacing: 2px;
+  
+  
+  
+}
+button:hover {
+  background: inherit;
+  color: #f45702;
+  border-bottom: 2px solid #f45702;
+}
+
+::selection {
+  background: #ffc7b8;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  border: 1px solid #6bd4b1;
+  -webkit-text-fill-color: #2A293E;
+  -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
